@@ -1,0 +1,48 @@
+body {
+    margin:0px;
+}
+.main {
+    background-color: hsl(0, 0%, 75%);
+    text-align: center;
+}
+#title {
+    padding-left: 20px;
+    text-align: center;
+    display: inline-block;
+}
+#subtitle {
+    padding-left: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+#text1 {
+    font-size: 15px;
+    background-color: #1f1f1f;
+    color: #2860a6;
+    display: inline-block;
+}
+#text2{
+    font-size: 15px;
+}
+hr{
+    margin-left: 0px;
+    width: 600px;
+}
+.pagination a{
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+.pagination a:hover{
+    background-color: hsl(84, 100%, 70%);
+}
+.active{
+    background-color: hsl(84, 100%, 60%);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: lightgrey;
+    border-radius: 5px;
+}

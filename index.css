@@ -1,0 +1,51 @@
+body {
+    margin:0px;
+}
+.main {
+    background-color: hsl(0, 0%, 75%);
+    text-align: center;
+}
+#pagetitle {
+    padding-left: 20px;
+    text-align: center;
+    display: inline-block;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    background-color: hsl(0, 0%, 25%);
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+.navbar a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    background-color: hsl(0, 0%, 30%);
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 50%);
+}
+.navbar li{
+    float: left;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    padding: 0px;
+    display: block;
+    background-color: hsl(0, 0%, 30%);
+}
+.description {
+    padding-left: 33px;
+    color: orange;
+}
+.description2 {
+    padding-left: 296px;
+    color: blue;
+}
+.course_image {
+    float: inline-start;
+    padding-inline-end: 100px;
+}
